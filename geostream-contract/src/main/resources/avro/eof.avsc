@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "NewFeedPublished",
+  "namespace": "net.arbor.geostream.contract",
+  "fields": [
+    { "name": "srcBatchId", "type": "string" },
+    { "name": "createdTime",  "type": "long"   }
+  ]
+}

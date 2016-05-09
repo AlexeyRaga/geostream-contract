@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "IpToCountryRecord",
+  "namespace": "net.arbor.geostream.contract",
+  "fields": [
+    { "name": "startIP",     "type": "long"   },
+    { "name": "endIP",       "type": "long"   },
+    { "name": "countryCode", "type": "string" }
+  ]
+}

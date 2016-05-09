@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "IpToAsnRecord",
+  "namespace": "net.arbor.geostream.contract",
+  "fields": [
+    { "name": "startIP",        "type": "long"   },
+    { "name": "endIP",          "type": "long"   },
+    { "name": "asnCode",        "type": "string" },
+    { "name": "asnDescription", "type": "string" }
+  ]
+}
