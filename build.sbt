@@ -1,14 +1,10 @@
 organization in ThisBuild := "net.arbor"
 
-description in ThisBuild := "Samza geostream"
+description in ThisBuild := "geostream-contract-multi"
 
 scalaVersion in ThisBuild := "2.11.8"
 
-resolvers in ThisBuild += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
-
 resolvers in ThisBuild += "Bin tray" at "https://dl.bintray.com/arbornetworks/maven-private"
-
-resolvers in ThisBuild += "confluent" at "http://packages.confluent.io/maven/"
 
 bintrayOrganization in ThisBuild := Some("arbornetworks")
 
