@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "FeedsCreated",
+  "namespace": "net.arbor.geostream.contract",
+  "fields": [
+    {
+      "name": "feeds",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "FeedInfo",
+          "fields": [
+            { "name": "name"          ,  "type": "string" },
+            { "name": "version"       ,  "type": "string" },
+            { "name": "format"        ,  "type": "string" },
+            { "name": "createTime"    ,  "type": "long"   },
+            { "name": "md5"           ,  "type": "string" },
+            { "name": "bucketName"    ,  "type": "string" },
+            { "name": "bucketKey"     ,  "type": "string" }
+          ]
+        }
+      }
+    }
+  ]
+}
