@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "AvroIpv4Address",
+  "namespace": "net.arbor.geostream.contract",
+  "fields": [
+    { "name": "ip",     "type": "long"   }
+  ]
+}
